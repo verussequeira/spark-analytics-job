@@ -1,0 +1,243 @@
+2025.12.19 20:12:23 INFO  Started: Metals version 1.6.4 in folders '/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job' for client Cursor 1.99.3.
+2025.12.19 20:12:23 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.19 20:12:58 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.12.19 20:12:58 WARN  no build target for: /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/metals.sbt
+2025.12.19 20:12:58 WARN  no build target for: /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project/metals.sbt
+2025.12.19 20:12:58 INFO  no build target found for /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 20:12:59 INFO  [info] welcome to sbt 1.10.11 (Homebrew Java 17.0.14)
+2025.12.19 20:13:00 INFO  [info] loading settings for project spark-analytics-job-build-build-build from metals.sbt...
+2025.12.19 20:13:00 INFO  [info] loading project definition from /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project/project
+2025.12.19 20:13:03 INFO  no build target found for /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 20:13:03 INFO  [info] loading settings for project spark-analytics-job-build-build from metals.sbt...
+2025.12.19 20:13:03 INFO  [info] loading project definition from /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project
+2025.12.19 20:13:06 INFO  [success] Generated .bloop/spark-analytics-job-build-build.json
+2025.12.19 20:13:06 INFO  [success] Total time: 3 s, completed Dec 19, 2025, 8:13:06 PM
+2025.12.19 20:13:06 INFO  [info] loading settings for project spark-analytics-job-build from metals.sbt, plugins.sbt...
+2025.12.19 20:13:06 INFO  [info] loading project definition from /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project
+2025.12.19 20:13:09 INFO  [success] Generated .bloop/spark-analytics-job-build.json
+2025.12.19 20:13:09 INFO  [success] Total time: 2 s, completed Dec 19, 2025, 8:13:09 PM
+2025.12.19 20:13:11 INFO  [info] loading settings for project spark-analytics-job from build.sbt...
+2025.12.19 20:13:11 INFO  [info] set current project to spark-analytics-job (in build file:/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/)
+2025.12.19 20:13:19 INFO  [success] Generated .bloop/spark-analytics-job.json
+2025.12.19 20:13:19 INFO  [success] Generated .bloop/spark-analytics-job-test.json
+2025.12.19 20:13:19 INFO  [success] Total time: 8 s, completed Dec 19, 2025, 8:13:19 PM
+2025.12.19 20:13:19 INFO  time: ran 'sbt bloopInstall' in 21s
+2025.12.19 20:13:19 INFO  Attempting to connect to the build server...
+2025.12.19 20:13:19 INFO  No running Bloop server found, starting one.
+2025.12.19 20:13:29 INFO  Starting compilation server
+2025.12.19 20:13:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.19 20:13:32 INFO  Attempting to connect to the build server...
+2025.12.19 20:13:32 INFO  Found a Bloop server running
+2025.12.19 20:13:32 INFO  Attempting to connect to the build server...
+2025.12.19 20:13:32 INFO  Found a Bloop server running
+2025.12.19 20:13:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.19 20:13:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.19 20:13:32 INFO  time: Connected to build server in 13s
+2025.12.19 20:13:32 INFO  Connected to Build server: Bloop v2.0.17
+2025.12.19 20:13:33 INFO  time: Imported build in 0.1s
+2025.12.19 20:13:39 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.19 20:13:48 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/hdfs/protocol/proto/ClientNamenodeProtocolProtos.java]
+2025.12.19 20:13:48 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-48-839.md")
+2025.12.19 20:13:48 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/hdfs/protocol/proto/ClientDatanodeProtocolProtos.java]
+2025.12.19 20:13:48 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-48-963.md")
+2025.12.19 20:13:48 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/security/proto/RefreshUserMappingsProtocolProtos.java]
+2025.12.19 20:13:48 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-49-334.md")
+2025.12.19 20:13:48 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/ipc/protobuf/TestRpcServiceProtos.java]
+2025.12.19 20:13:48 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-49-413.md")
+2025.12.19 20:13:48 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/ipc/protobuf/TestRpcServiceProtosLegacy.java]
+2025.12.19 20:13:48 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-49-425.md")
+2025.12.19 20:13:48 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/ipc/protobuf/IpcConnectionContextProtos.java]
+2025.12.19 20:13:48 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-49-458.md")
+2025.12.19 20:13:48 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/ipc/protobuf/RpcHeaderProtos.java]
+2025.12.19 20:13:48 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-49-472.md")
+2025.12.19 20:13:48 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/tracing/TraceAdminPB.java]
+2025.12.19 20:13:48 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-49-581.md")
+2025.12.19 20:13:48 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/fs/audit/AuditConstants.java]
+2025.12.19 20:13:48 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-49-654.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/ArrowType.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-598.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/UnionReader.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-602.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/BaseWriter.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-603.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/CaseSensitiveStructWriters.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-605.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/DenseUnionVector.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-607.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/AbstractPromotableFieldWriter.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-611.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/UnionListWriter.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-613.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/UnionFixedSizeListWriter.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-614.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/BaseReader.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-616.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/UnionWriter.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-617.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/AbstractFieldReader.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-619.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/UnionVector.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-621.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/NullReader.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-623.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/StructWriters.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-624.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/ComplexWriters.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-626.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/UnionMapWriter.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-627.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/AbstractFieldWriter.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-629.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/ComplexCopier.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-630.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/ComplexReaders.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-632.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/HolderReaderImpl.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-633.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/ValueHolders.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-634.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/DenseUnionWriter.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-635.md")
+2025.12.19 20:13:54 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/jar:file:/Users/verussequeira/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar!/codegen/templates/DenseUnionReader.java]
+2025.12.19 20:13:54 INFO  Java indexer failed with and exception. (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_failed-idex-java_20-13-54-637.md")
+2025.12.19 20:13:58 INFO  time: indexed workspace in 25s
+2025.12.19 20:13:59 INFO  compiling spark-analytics-job (10 scala sources)
+2025.12.19 20:13:59 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.18. Compiling...
+2025.12.19 20:14:06 INFO  Compilation completed in 6.673s.
+2025.12.19 20:14:11 INFO  time: compiled spark-analytics-job in 11s
+2025.12.19 21:15:46 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.19 21:15:46 INFO  time: compiled spark-analytics-job in 0.54s
+2025.12.19 21:16:06 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.19 21:16:06 INFO  time: compiled spark-analytics-job in 0.61s
+2025.12.19 21:17:48 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.19 21:17:48 INFO  time: compiled spark-analytics-job in 0.39s
+2025.12.19 21:21:41 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.19 21:21:41 INFO  time: compiled spark-analytics-job in 0.32s
+2025.12.19 21:21:54 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.19 21:21:54 INFO  time: compiled spark-analytics-job in 0.81s
+2025.12.19 21:21:54 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.19 21:21:55 INFO  time: compiled spark-analytics-job in 0.25s
+2025.12.19 21:21:59 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.19 21:21:59 INFO  time: compiled spark-analytics-job in 0.75s
+2025.12.19 21:23:37 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/scala/com/company/analytics/instrumentation/MethodLoggingAspect.scala]
+2025.12.19 21:23:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_empty-definition_(spark-analytics-job)_21-23-37-313.md")
+2025.12.19 21:23:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_empty-definition_(spark-analytics-job)_21-23-37-313.md")
+2025.12.19 21:24:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-19/r_empty-definition_(spark-analytics-job)_21-23-37-313.md")
+2025.12.22 12:33:12 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 12:33:13 INFO  time: compiled spark-analytics-job in 1.02s
+2025.12.22 12:34:20 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 12:34:20 INFO  time: compiled spark-analytics-job in 0.62s
+2025.12.22 12:46:03 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 12:46:03 INFO  time: compiled spark-analytics-job in 0.31s
+2025.12.22 12:48:06 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 12:48:06 INFO  time: compiled spark-analytics-job in 0.18s
+Dec 22, 2025 12:48:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.12.22 14:26:35 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:26:35 INFO  time: compiled spark-analytics-job in 0.23s
+2025.12.22 14:27:54 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:27:54 INFO  time: compiled spark-analytics-job in 0.25s
+Dec 22, 2025 2:28:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1593
+2025.12.22 14:28:41 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:28:41 INFO  time: compiled spark-analytics-job in 0.21s
+2025.12.22 14:29:10 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 14:29:10 INFO  time: compiled spark-analytics-job in 0.16s
+2025.12.22 14:29:26 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:29:26 INFO  time: compiled spark-analytics-job in 0.18s
+2025.12.22 14:29:30 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:29:30 INFO  time: compiled spark-analytics-job in 0.21s
+2025.12.22 14:29:34 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:29:34 INFO  time: compiled spark-analytics-job in 0.18s
+2025.12.22 14:29:38 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:29:38 INFO  time: compiled spark-analytics-job in 0.17s
+2025.12.22 14:29:42 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:29:42 INFO  time: compiled spark-analytics-job in 0.2s
+2025.12.22 14:29:44 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:29:44 INFO  time: compiled spark-analytics-job in 0.17s
+2025.12.22 14:29:49 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:29:49 INFO  time: compiled spark-analytics-job in 0.2s
+2025.12.22 14:29:55 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:29:55 INFO  time: compiled spark-analytics-job in 0.16s
+2025.12.22 14:29:58 INFO  compiling spark-analytics-job (2 scala sources)
+2025.12.22 14:29:58 INFO  time: compiled spark-analytics-job in 0.18s
+2025.12.22 14:35:41 INFO  compiling spark-analytics-job (3 scala sources)
+2025.12.22 14:35:41 INFO  time: compiled spark-analytics-job in 0.2s
+2025.12.22 14:36:05 INFO  compiling spark-analytics-job (3 scala sources)
+2025.12.22 14:36:05 INFO  time: compiled spark-analytics-job in 0.2s
+2025.12.22 14:38:06 INFO  compiling spark-analytics-job (3 scala sources)
+2025.12.22 14:38:06 INFO  time: compiled spark-analytics-job in 0.19s
+2025.12.22 14:38:09 INFO  compiling spark-analytics-job (3 scala sources)
+2025.12.22 14:38:09 INFO  time: compiled spark-analytics-job in 0.17s
+2025.12.22 14:38:30 INFO  compiling spark-analytics-job (3 scala sources)
+2025.12.22 14:38:30 INFO  time: compiled spark-analytics-job in 0.19s
+2025.12.22 14:38:32 INFO  compiling spark-analytics-job (3 scala sources)
+2025.12.22 14:38:32 INFO  time: compiled spark-analytics-job in 0.23s
+Dec 22, 2025 2:38:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1949
+2025.12.22 14:38:34 INFO  compiling spark-analytics-job (3 scala sources)
+2025.12.22 14:38:34 INFO  time: compiled spark-analytics-job in 0.17s
+2025.12.22 14:39:02 INFO  compiling spark-analytics-job (3 scala sources)
+2025.12.22 14:39:02 INFO  time: compiled spark-analytics-job in 0.23s
+2025.12.22 14:41:37 INFO  compiling spark-analytics-job (3 scala sources)
+2025.12.22 14:41:37 INFO  time: compiled spark-analytics-job in 0.23s
+2025.12.22 15:35:41 INFO  Created report: Optional[file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/java/com/company/analytics/instrumentation/LogMethod.java]
+2025.12.22 15:35:41 INFO  QDox parse error in file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/java/com/company/analytics/instrumentation/LogMethod.java (full report at: "/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/.reports/metals-full/2025-12-22/r_qdox-error_(spark-analytics-job)_15-35-41-128.md")
+2025.12.22 15:35:41 INFO  compiling spark-analytics-job (12 scala sources and 1 java source)
+2025.12.22 15:35:41 INFO  time: compiled spark-analytics-job in 0.23s
+2025.12.22 15:35:41 INFO  compiling spark-analytics-job (12 scala sources and 1 java source)
+2025.12.22 15:35:41 INFO  time: compiled spark-analytics-job in 68ms
+2025.12.22 15:35:50 INFO  compiling spark-analytics-job (11 scala sources and 1 java source)
+2025.12.22 15:35:53 WARN  Invalid text document uri received from build server: file:///Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/scala/com/company/analytics/instrumentation/LogMethod.scala
+2025.12.22 15:35:53 INFO  time: compiled spark-analytics-job in 3.03s
+Dec 22, 2025 3:39:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2227
+2025.12.22 15:43:04 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:43:05 INFO  time: compiled spark-analytics-job in 1.09s
+2025.12.22 15:43:06 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:43:06 INFO  time: compiled spark-analytics-job in 0.8s
+2025.12.22 15:43:10 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:43:10 INFO  time: compiled spark-analytics-job in 0.88s
+2025.12.22 15:53:16 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:53:16 INFO  time: compiled spark-analytics-job in 0.88s
+2025.12.22 15:53:18 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:53:18 INFO  time: compiled spark-analytics-job in 0.88s
+2025.12.22 15:53:22 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:53:22 INFO  time: compiled spark-analytics-job in 0.93s
+2025.12.22 15:53:25 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:53:25 INFO  time: compiled spark-analytics-job in 0.81s
+2025.12.22 15:53:28 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:53:28 INFO  time: compiled spark-analytics-job in 0.83s
+2025.12.22 15:56:01 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:56:01 INFO  time: compiled spark-analytics-job in 0.66s
+2025.12.22 15:56:14 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:56:14 INFO  time: compiled spark-analytics-job in 0.49s
+2025.12.22 15:56:24 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 15:56:24 INFO  time: compiled spark-analytics-job in 0.49s
+2025.12.22 16:49:07 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:49:07 INFO  time: compiled spark-analytics-job in 0.62s
+2025.12.22 16:49:40 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:49:40 INFO  time: compiled spark-analytics-job in 0.5s
+2025.12.22 16:50:43 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:50:43 INFO  time: compiled spark-analytics-job in 0.65s
+2025.12.22 16:50:50 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:50:50 INFO  time: compiled spark-analytics-job in 0.57s
+2025.12.22 16:55:17 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:55:17 INFO  time: compiled spark-analytics-job in 0.59s
+2025.12.22 16:55:25 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:55:25 INFO  time: compiled spark-analytics-job in 0.85s
+2025.12.22 16:55:31 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:55:31 INFO  time: compiled spark-analytics-job in 0.87s
+2025.12.22 16:55:35 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:55:36 WARN  Could not load snapshot text for /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/scala/com/company/analytics/instrumentation/MethodLoggingAspect.scala
+2025.12.22 16:55:35 INFO  time: compiled spark-analytics-job in 0.88s
+2025.12.22 16:55:40 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:55:40 INFO  time: compiled spark-analytics-job in 0.87s
+2025.12.22 16:55:59 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:55:59 INFO  time: compiled spark-analytics-job in 0.55s
+2025.12.22 16:56:05 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:56:05 INFO  time: compiled spark-analytics-job in 0.15s
+2025.12.22 16:56:11 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:56:11 INFO  time: compiled spark-analytics-job in 0.65s
+2025.12.22 16:56:20 INFO  compiling spark-analytics-job (1 scala source)
+2025.12.22 16:56:20 INFO  time: compiled spark-analytics-job in 0.6s

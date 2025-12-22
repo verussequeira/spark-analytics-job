@@ -1,0 +1,77 @@
+1766190293168:clean
+1766190295951:compile
+1766190333949:show libraryDependencies
+1766190357215:sbt "runMain com.company.analytics.utils.SampleDataGenerator"
+1766190391958:runMain com.company.analytics.utils.SampleDataGenerator
+1766190407396:runMain com.company.analytics.SparkJobApp sales
+1766190561893:java -version
+1766190565146:java
+1766190574837:exit
+1766190755356:clean
+1766190760287:compile
+1766190809660:show libraryDependencies
+1766190832020:runMain com.company.analytics.utils.SampleDataGenerator
+1766190845507:runMain com.company.analytics.SparkJobApp sales
+1766190862475:exit
+1766191159139:clean
+1766191161541:compile
+1766191183028:runMain com.company.analytics.utils.SampleDataGenerator
+1766191196816:runMain com.company.analytics.SparkJobApp sales
+1766197343487:clean
+1766197347348:compile
+1766197470640:runMain com.company.analytics.SparkJobApp sales
+1766425598033:clean
+1766425602879:compile
+1766425633098:runMain com.company.analytics.SparkJobApp sales
+1766425708102:update
+1766429603115:list
+1766429633328:show libraryDependencies
+1766431260263:runMain com.company.analytics.SparkJobApp sales
+1766431603156:clean
+1766431607529:compile
+1766431611904:runMain com.company.analytics.SparkJobApp sales
+1766431680382:clean
+1766431683397:compile
+1766431689698:runMain com.company.analytics.SparkJobApp sales
+1766431813005:clean
+1766431815278:compile
+1766431818934:runMain com.company.analytics.SparkJobApp sales
+1766432150300:clean
+1766432152703:compile
+1766432172564:clean
+1766432174702:compile
+1766432178570:runMain com.company.analytics.SparkJobApp sales
+1766432749280:compile
+1766432754463:runMain com.company.analytics.SparkJobApp sales
+1766432820285:exit
+1766433656625:update
+1766433951791:s -la ~/.ivy2/cache/org.aspectj/aspectjweaver/jars/
+1766433954748:exit
+1766434315718:compile
+1766434321354:runMain com.company.analytics.SparkJobApp sales
+1766434351403:compile
+1766434353689:runMain com.company.analytics.SparkJobApp sales
+1766435538278:run
+1766435673133:compile
+1766435679270:runMain com.company.analytics.SparkJobApp sales
+1766435921321:clean
+1766435924314:compile
+1766435932092:runMain com.company.analytics.SparkJobApp sales
+1766436018289:compile
+1766436021846:clean
+1766436023682:compile
+1766436027496:runMain com.company.analytics.SparkJobApp sales
+1766436310016:exit
+1766436322241:runMain com.company.analytics.SparkJobApp sales
+1766437006059:clean
+1766437008554:runMain com.company.analytics.SparkJobApp sales
+1766440185309:clean
+1766440191250:compile
+1766440195514:runMain com.company.analytics.SparkJobApp sales
+1766440778783:sbt -Dspark.logging.instrumentation.log-method-name=false "runMain com.company.analytics.SparkJobApp sales"
+1766440798351:-Dspark.logging.instrumentation.log-method-name=false "runMain com.company.analytics.SparkJobApp sales"
+1766440833507:"-Dspark.logging.instrumentation.log-method-name=false runMain com.company.analytics.SparkJobApp sales"
+1766440910827:-Dspark.logging.instrumentation.log-method-name=false runMain com.company.analytics.SparkJobApp sales
+1766440919221:runMain com.company.analytics.SparkJobApp sales -Dspark.logging.instrumentation.log-method-name=false
+1766440950271:runMain com.company.analytics.SparkJobApp sales -Dspark.logging.instrumentation.log-method-name=true
+1766440979662:exit

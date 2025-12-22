@@ -1,0 +1,11 @@
+order_id,customer_id,region,amount,product
+ORD-001,CUST-101,North,150.50,Laptop
+ORD-002,CUST-102,South,89.99,Mouse
+ORD-003,CUST-103,East,1200.00,Monitor
+ORD-004,CUST-101,North,45.00,Keyboard
+ORD-005,CUST-104,West,299.99,Webcam
+ORD-006,CUST-102,South,599.00,Tablet
+ORD-007,CUST-105,North,75.50,Cable
+ORD-008,CUST-103,East,1500.00,Laptop
+ORD-009,CUST-106,West,199.99,Headphones
+ORD-010,CUST-101,North,49.99,Mouse
