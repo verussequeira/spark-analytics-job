@@ -1,1063 +1,1063 @@
-[debug] Separate classpath projects and all dependencies start:
-[debug] Separate classpath projects and all dependencies end. Took 2 ms
-[debug] Collect only external dependencies start:
-[debug] Collect only external dependencies end. Took 0 ms
-[debug] Collect excluded jar names start:
-[debug] Collect excluded jar names end. Took 0 ms
-[debug] Filter jars start:
-[debug] Filter jars end. Took 1 ms
-[debug] Collect and shade project classes start:
-[debug] Collect and shade project classes end. Took 1 ms
-[debug] Collect and shade dependency entries start:
-[debug] Collect and shade dependency entries end. Took 6 ms
-[debug] Collect renames start:
-[debug] Collect renames end. Took 14 ms
-[debug] Process renames start:
-[debug] Process renames end. Took 11 ms
-[debug] Collect all merge strategies for cache check start:
-[debug] Collect all merge strategies for cache check end. Took 16 ms
-[debug] Building assembly jar due to missing output...
-[debug] Merge all conflicting jar entries (including those renamed) start:
-[debug] Merge all conflicting jar entries (including those renamed) end. Took 24 ms
-[debug] Report merge results start:
-[info] 270 file(s) merged using strategy 'First' (Run the task at debug level to see the details)
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/JoinPointImpl$InheritableThreadLocalAroundClosureStack.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$InheritableThreadLocalAroundClosureStack.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$InheritableThreadLocalAroundClosureStack.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/LockSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/LockSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/LockSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = LICENSE
-[debug] Merge origins:
-[debug]   Jar name = scala-library-2.12.18.jar, jar org = org.scala-lang, entry target = LICENSE
-[debug]   Jar name = scala-reflect-2.12.18.jar, jar org = org.scala-lang, entry target = LICENSE
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/FieldSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/FieldSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/FieldSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/AdviceSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AdviceSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AdviceSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/StringMaker.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/StringMaker.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/StringMaker.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/SoftException.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/SoftException.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/SoftException.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/DeclareMixin.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareMixin.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareMixin.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/RequiredTypes.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/RequiredTypes.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/RequiredTypes.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/AdviceImpl$1.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AdviceImpl$1.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AdviceImpl$1.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/InterTypeFieldDeclarationImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeFieldDeclarationImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeFieldDeclarationImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/StringToType.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/StringToType.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/StringToType.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/Aspects14.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Aspects14.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Aspects14.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/Before.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Before.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Before.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/Aspects.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Aspects.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Aspects.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = module-info.class
-[debug] Merge origins:
-[debug]   Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = module-info.class
-[debug]   Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = module-info.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/SignaturePatternImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/SignaturePatternImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/SignaturePatternImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/InterTypeConstructorDeclaration.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeConstructorDeclaration.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeConstructorDeclaration.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/AdviceName.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AdviceName.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AdviceName.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadStackImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadStackImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadStackImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/Factory.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/Factory.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/Factory.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$1.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$1.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$1.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/MemberSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/MemberSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/MemberSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/PerClauseImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PerClauseImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PerClauseImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/DeclareWarning.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareWarning.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareWarning.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/JoinPointImpl$EnclosingStaticPartImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$EnclosingStaticPartImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$EnclosingStaticPartImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/control/CodeGenerationHint.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/control/CodeGenerationHint.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/control/CodeGenerationHint.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/PointcutExpression.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PointcutExpression.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PointcutExpression.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/SourceLocationImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SourceLocationImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SourceLocationImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/internal/lang/PlaceHolder.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/internal/lang/PlaceHolder.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/internal/lang/PlaceHolder.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/ProceedingJoinPoint.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/ProceedingJoinPoint.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/ProceedingJoinPoint.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl$1.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl$1.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl$1.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStack.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStack.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStack.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/JoinPoint.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/JoinPointImpl$StaticPartImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$StaticPartImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$StaticPartImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/AfterThrowing.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AfterThrowing.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AfterThrowing.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/AdviceKind.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AdviceKind.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AdviceKind.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/SourceLocation.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/SourceLocation.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/SourceLocation.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/CodeSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/CodeSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/CodeSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = LICENSE-AspectJ.html
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = LICENSE-AspectJ.html
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = LICENSE-AspectJ.html
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/TypePatternBasedPerClause.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/TypePatternBasedPerClause.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/TypePatternBasedPerClause.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/annotation/ajcDeclareAnnotation.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareAnnotation.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareAnnotation.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/SignaturePattern.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/SignaturePattern.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/SignaturePattern.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/Pointcut.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Pointcut.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Pointcut.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/InterTypeMethodDeclaration.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeMethodDeclaration.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeMethodDeclaration.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/JoinPointImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/InterTypeMethodDeclarationImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeMethodDeclarationImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeMethodDeclarationImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/DeclarePrecedence.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclarePrecedence.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclarePrecedence.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/Advice.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/Advice.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/Advice.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/PerClauseKind.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PerClauseKind.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PerClauseKind.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/PerObjectMap.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/PerObjectMap.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/PerObjectMap.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/DeclareSoftImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareSoftImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareSoftImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/SignatureImpl$CacheImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl$CacheImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl$CacheImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/InitializerSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/InitializerSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/InitializerSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/DeclareError.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareError.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareError.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/DeclarePrecedence.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclarePrecedence.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclarePrecedence.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/CodeSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/CodeSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/CodeSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/MemberSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/MemberSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/MemberSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/SignatureImpl$Cache.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl$Cache.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl$Cache.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/DeclareErrorOrWarning.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareErrorOrWarning.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareErrorOrWarning.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/InterTypeDeclaration.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeDeclaration.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeDeclaration.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/DeclareAnnotation.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareAnnotation.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareAnnotation.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/Aspect.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Aspect.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Aspect.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/CFlowPlusState.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowPlusState.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowPlusState.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/annotation/ajcPrivileged.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcPrivileged.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcPrivileged.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/annotation/ajcDeclareEoW.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareEoW.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareEoW.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/ConstructorSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/ConstructorSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/ConstructorSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/AfterReturning.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AfterReturning.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AfterReturning.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/annotation/ajcDeclarePrecedence.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclarePrecedence.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclarePrecedence.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/NoAspectBoundException.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/NoAspectBoundException.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/NoAspectBoundException.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/ConstructorSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/ConstructorSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/ConstructorSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/UnlockSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/UnlockSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/UnlockSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactory.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactory.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactory.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/PointcutExpressionImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutExpressionImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutExpressionImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/StringToType$1.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/StringToType$1.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/StringToType$1.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadCounter.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounter.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounter.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/Conversions.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/Conversions.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/Conversions.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/annotation/ajcDeclareParents.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareParents.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareParents.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/annotation/ajcITD.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcITD.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcITD.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/AjType.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AjType.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AjType.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/FieldSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/FieldSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/FieldSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/NoSuchPointcutException.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/NoSuchPointcutException.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/NoSuchPointcutException.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl11.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl11.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl11.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/InitializerSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InitializerSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InitializerSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/AdviceImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AdviceImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AdviceImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/annotation/ajcDeclareSoft.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareSoft.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareSoft.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl$Counter.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl$Counter.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl$Counter.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/CFlowCounter.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowCounter.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowCounter.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/AroundClosure.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/AroundClosure.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/AroundClosure.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/PerClause.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PerClause.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PerClause.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/MethodSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/MethodSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/MethodSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/InterTypeDeclarationImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeDeclarationImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeDeclarationImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/DeclarePrecedenceImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclarePrecedenceImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclarePrecedenceImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/AjTypeSystem.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AjTypeSystem.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AjTypeSystem.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/CFlowStack.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowStack.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowStack.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/DeclareParents.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareParents.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareParents.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/AjTypeImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AjTypeImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AjTypeImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/LockSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/LockSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/LockSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/CatchClauseSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/CatchClauseSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/CatchClauseSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/SignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/DeclareAnnotation$Kind.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareAnnotation$Kind.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareAnnotation$Kind.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/InterTypeFieldDeclaration.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeFieldDeclaration.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeFieldDeclaration.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/UnlockSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/UnlockSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/UnlockSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/CFlow.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/CFlow.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/CFlow.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/TypePatternImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/TypePatternImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/TypePatternImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/TypePatternBasedPerClauseImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/TypePatternBasedPerClauseImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/TypePatternBasedPerClauseImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/After.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/After.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/After.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackImpl11.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackImpl11.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackImpl11.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/Pointcut.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/Pointcut.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/Pointcut.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/DeclareParents.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareParents.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareParents.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl$1.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl$1.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl$1.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/SuppressAjWarnings.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/SuppressAjWarnings.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/SuppressAjWarnings.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/Signature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Signature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Signature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/annotation/Around.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Around.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Around.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/PointcutBasedPerClause.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PointcutBasedPerClause.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PointcutBasedPerClause.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/PointcutImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/DeclareAnnotation.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareAnnotation.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareAnnotation.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/AdviceSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/AdviceSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/AdviceSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/DeclareParentsImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareParentsImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareParentsImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/DeclareSoft.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareSoft.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareSoft.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/JoinPoint$StaticPart.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint$StaticPart.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint$StaticPart.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/MethodSignature.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/MethodSignature.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/MethodSignature.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/DeclareErrorOrWarningImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareErrorOrWarningImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareErrorOrWarningImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/internal/lang/reflect/InterTypeConstructorDeclarationImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeConstructorDeclarationImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeConstructorDeclarationImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11$Counter.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11$Counter.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11$Counter.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/runtime/reflect/CatchClauseSignatureImpl.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/CatchClauseSignatureImpl.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/CatchClauseSignatureImpl.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/TypePattern.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/TypePattern.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/TypePattern.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = NOTICE
-[debug] Merge origins:
-[debug]   Jar name = scala-library-2.12.18.jar, jar org = org.scala-lang, entry target = NOTICE
-[debug]   Jar name = scala-reflect-2.12.18.jar, jar org = org.scala-lang, entry target = NOTICE
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/reflect/NoSuchAdviceException.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/NoSuchAdviceException.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/NoSuchAdviceException.class
-[debug] 
-[debug] Merge Strategy Used: First
-[debug] Resulting entries:
-[debug]   Jar entry = org/aspectj/lang/JoinPoint$EnclosingStaticPart.class
-[debug] Merge origins:
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint$EnclosingStaticPart.class
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint$EnclosingStaticPart.class
-[info] 21 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/maven/ch.qos.logback/logback-classic/pom.xml
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/maven/ch.qos.logback/logback-core/pom.properties
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/services/org.slf4j.spi.SLF4JServiceProvider
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/LICENSE.txt
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/maven/ch.qos.logback/logback-classic/pom.properties
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/INDEX.LIST
-[debug]   Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/INDEX.LIST
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/maven/org.slf4j/slf4j-api/pom.properties
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/MANIFEST.MF
-[debug]   Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/MANIFEST.MF
-[debug]   Jar name = config-1.4.2.jar, jar org = com.typesafe, entry target = META-INF/MANIFEST.MF
-[debug]   Jar name = scala-logging_2.12-3.9.5.jar, jar org = com.typesafe.scala-logging, entry target = META-INF/MANIFEST.MF
-[debug]   Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = META-INF/MANIFEST.MF
-[debug]   Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = META-INF/MANIFEST.MF
-[debug]   Jar name = scala-library-2.12.18.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF
-[debug]   Jar name = scala-reflect-2.12.18.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF
-[debug]   Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/MANIFEST.MF
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/services/jakarta.servlet.ServletContainerInitializer
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/versions/9/module-info.class
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/maven/ch.qos.logback/logback-core/pom.xml
-[debug] 
-[debug] Merge Strategy Used: Discard
-[debug] Resulting entries:
-[debug]   None
-[debug] Merge origins:
-[debug]   Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/maven/org.slf4j/slf4j-api/pom.xml
-[debug] Report merge results end. Took 10 ms
-[debug] Finding remaining conflicts that were not merged start:
-[debug] Finding remaining conflicts that were not merged end. Took 28 ms
-[debug] Sort/Parallelize merged entries start:
-[debug] Sort/Parallelize merged entries end. Took 7 ms
-[debug] Create jar start:
-[debug] Create jar end. Took 925 ms
-[debug] Hash newly-built Jar start:
-[debug] Hash newly-built Jar end. Took 49 ms
-[info] Built: /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/spark-analytics-job-assembly-1.0.0.jar
-[info] Jar hash: 15d12b12ecd86358c52f6f86fc67bb3a302998f9
-[debug] Close library jar references start:
-[debug] Close library jar references end. Took 0 ms
+[0m[[0m[0mdebug[0m] [0m[0mSeparate classpath projects and all dependencies start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mSeparate classpath projects and all dependencies end. Took 2 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect only external dependencies start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect only external dependencies end. Took 0 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect excluded jar names start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect excluded jar names end. Took 0 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mFilter jars start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFilter jars end. Took 0 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade project classes start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade project classes end. Took 1 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade dependency entries start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade dependency entries end. Took 9 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect renames start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect renames end. Took 12 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mProcess renames start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mProcess renames end. Took 15 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect all merge strategies for cache check start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect all merge strategies for cache check end. Took 16 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mBuilding assembly jar due to missing output...[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge all conflicting jar entries (including those renamed) start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge all conflicting jar entries (including those renamed) end. Took 21 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mReport merge results start:[0m
+[0m[[0m[0minfo[0m] [0m[0m270 file(s) merged using strategy 'First' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/JoinPointImpl$InheritableThreadLocalAroundClosureStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$InheritableThreadLocalAroundClosureStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$InheritableThreadLocalAroundClosureStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/LockSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/LockSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/LockSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-library-2.12.18.jar, jar org = org.scala-lang, entry target = LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-reflect-2.12.18.jar, jar org = org.scala-lang, entry target = LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/FieldSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/FieldSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/FieldSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/AdviceSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AdviceSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AdviceSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/StringMaker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/StringMaker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/StringMaker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/SoftException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/SoftException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/SoftException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/DeclareMixin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareMixin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareMixin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/Aspects14.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Aspects14.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Aspects14.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/StringToType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/StringToType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/StringToType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/RequiredTypes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/RequiredTypes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/RequiredTypes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/AdviceImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AdviceImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AdviceImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/InterTypeFieldDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeFieldDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeFieldDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/Before.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Before.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Before.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/Aspects.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Aspects.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Aspects.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/SignaturePatternImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/SignaturePatternImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/SignaturePatternImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/InterTypeConstructorDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeConstructorDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeConstructorDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/AdviceName.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AdviceName.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AdviceName.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadStackImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadStackImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadStackImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/Factory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/Factory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/Factory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/MemberSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/MemberSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/MemberSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/PerClauseImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PerClauseImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PerClauseImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/DeclareWarning.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareWarning.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareWarning.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/JoinPointImpl$EnclosingStaticPartImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$EnclosingStaticPartImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$EnclosingStaticPartImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/control/CodeGenerationHint.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/control/CodeGenerationHint.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/control/CodeGenerationHint.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/PointcutExpression.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PointcutExpression.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PointcutExpression.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/SourceLocationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SourceLocationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SourceLocationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/internal/lang/PlaceHolder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/internal/lang/PlaceHolder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/internal/lang/PlaceHolder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/ProceedingJoinPoint.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/ProceedingJoinPoint.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/ProceedingJoinPoint.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/JoinPoint.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/JoinPointImpl$StaticPartImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$StaticPartImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl$StaticPartImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/AfterThrowing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AfterThrowing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AfterThrowing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/AdviceKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AdviceKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AdviceKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/SourceLocation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/SourceLocation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/SourceLocation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/CodeSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/CodeSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/CodeSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = LICENSE-AspectJ.html[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = LICENSE-AspectJ.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = LICENSE-AspectJ.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/TypePatternBasedPerClause.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/TypePatternBasedPerClause.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/TypePatternBasedPerClause.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/annotation/ajcDeclareAnnotation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareAnnotation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareAnnotation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/SignaturePattern.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/SignaturePattern.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/SignaturePattern.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/Pointcut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Pointcut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Pointcut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/InterTypeMethodDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeMethodDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeMethodDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/DeclarePrecedence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclarePrecedence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclarePrecedence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/JoinPointImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/JoinPointImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/InterTypeMethodDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeMethodDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeMethodDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/Advice.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/Advice.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/Advice.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/PerClauseKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PerClauseKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PerClauseKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/PerObjectMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/PerObjectMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/PerObjectMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/DeclareSoftImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareSoftImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareSoftImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/SignatureImpl$CacheImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl$CacheImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl$CacheImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/InitializerSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/InitializerSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/InitializerSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/DeclareError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/DeclarePrecedence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclarePrecedence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclarePrecedence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/CodeSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/CodeSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/CodeSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/MemberSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/MemberSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/MemberSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/SignatureImpl$Cache.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl$Cache.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl$Cache.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/DeclareErrorOrWarning.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareErrorOrWarning.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareErrorOrWarning.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/InterTypeDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/DeclareAnnotation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareAnnotation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareAnnotation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/Aspect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Aspect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Aspect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/CFlowPlusState.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowPlusState.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowPlusState.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/annotation/ajcPrivileged.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcPrivileged.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcPrivileged.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/annotation/ajcDeclareEoW.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareEoW.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareEoW.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/ConstructorSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/ConstructorSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/ConstructorSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/AfterReturning.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AfterReturning.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/AfterReturning.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/annotation/ajcDeclarePrecedence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclarePrecedence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclarePrecedence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/NoAspectBoundException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/NoAspectBoundException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/NoAspectBoundException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/ConstructorSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/ConstructorSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/ConstructorSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/UnlockSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/UnlockSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/UnlockSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/PointcutExpressionImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutExpressionImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutExpressionImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/StringToType$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/StringToType$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/StringToType$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/Conversions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/Conversions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/Conversions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/AjType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AjType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AjType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/FieldSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/FieldSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/FieldSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/NoSuchPointcutException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/NoSuchPointcutException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/NoSuchPointcutException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/annotation/ajcITD.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcITD.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcITD.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/annotation/ajcDeclareParents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareParents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareParents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl$Counter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl$Counter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl$Counter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/annotation/ajcDeclareSoft.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareSoft.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/annotation/ajcDeclareSoft.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/InitializerSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InitializerSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InitializerSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/AdviceImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AdviceImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AdviceImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/InterTypeDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/DeclarePrecedenceImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclarePrecedenceImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclarePrecedenceImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/AjTypeSystem.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AjTypeSystem.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/AjTypeSystem.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/AroundClosure.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/AroundClosure.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/AroundClosure.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/PerClause.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PerClause.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PerClause.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/MethodSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/MethodSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/MethodSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/CFlowCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowCounter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/CFlowStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/CFlowStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/DeclareParents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareParents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareParents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/AjTypeImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AjTypeImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/AjTypeImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutBasedPerClauseImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/LockSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/LockSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/LockSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/CatchClauseSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/CatchClauseSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/CatchClauseSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/SignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/SignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/DeclareAnnotation$Kind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareAnnotation$Kind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareAnnotation$Kind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl$ThreadCounterImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/InterTypeFieldDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeFieldDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/InterTypeFieldDeclaration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/UnlockSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/UnlockSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/UnlockSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/CFlow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/CFlow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/CFlow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/TypePatternImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/TypePatternImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/TypePatternImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/TypePatternBasedPerClauseImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/TypePatternBasedPerClauseImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/TypePatternBasedPerClauseImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/After.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/After.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/After.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadStackImpl11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackImpl11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadStackImpl11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/Pointcut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/Pointcut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/Pointcut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/DeclareParents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareParents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/DeclareParents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/SuppressAjWarnings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/SuppressAjWarnings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/SuppressAjWarnings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/Signature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Signature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/Signature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/annotation/Around.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Around.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/annotation/Around.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareAnnotationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/PointcutBasedPerClause.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PointcutBasedPerClause.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/PointcutBasedPerClause.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/PointcutImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/PointcutImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/DeclareAnnotation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareAnnotation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareAnnotation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/AdviceSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/AdviceSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/AdviceSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/InterTypeConstructorDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeConstructorDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/InterTypeConstructorDeclarationImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/JoinPoint$StaticPart.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint$StaticPart.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint$StaticPart.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/MethodSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/MethodSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/MethodSignature.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/DeclareErrorOrWarningImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareErrorOrWarningImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareErrorOrWarningImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/DeclareSoft.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareSoft.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/DeclareSoft.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/internal/lang/reflect/DeclareParentsImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareParentsImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/internal/lang/reflect/DeclareParentsImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/NoSuchAdviceException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/NoSuchAdviceException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/NoSuchAdviceException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/JoinPoint$EnclosingStaticPart.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint$EnclosingStaticPart.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/JoinPoint$EnclosingStaticPart.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/lang/reflect/TypePattern.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/TypePattern.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/lang/reflect/TypePattern.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = NOTICE[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-library-2.12.18.jar, jar org = org.scala-lang, entry target = NOTICE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-reflect-2.12.18.jar, jar org = org.scala-lang, entry target = NOTICE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/reflect/CatchClauseSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/CatchClauseSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/reflect/CatchClauseSignatureImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11$Counter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11$Counter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = org/aspectj/runtime/internal/cflowstack/ThreadCounterImpl11$Counter.class[0m
+[0m[[0m[0minfo[0m] [0m[0m21 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/maven/ch.qos.logback/logback-classic/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/maven/ch.qos.logback/logback-core/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/services/org.slf4j.spi.SLF4JServiceProvider[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/LICENSE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/maven/ch.qos.logback/logback-classic/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/INDEX.LIST[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/INDEX.LIST[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/maven/org.slf4j/slf4j-api/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = config-1.4.2.jar, jar org = com.typesafe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-logging_2.12-3.9.5.jar, jar org = com.typesafe.scala-logging, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjrt-1.9.19.jar, jar org = org.aspectj, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = aspectjweaver-1.9.19.jar, jar org = org.aspectj, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-library-2.12.18.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-reflect-2.12.18.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-classic-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/services/jakarta.servlet.ServletContainerInitializer[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/versions/9/module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = logback-core-1.4.11.jar, jar org = ch.qos.logback, entry target = META-INF/maven/ch.qos.logback/logback-core/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = slf4j-api-2.0.7.jar, jar org = org.slf4j, entry target = META-INF/maven/org.slf4j/slf4j-api/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mReport merge results end. Took 10 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinding remaining conflicts that were not merged start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinding remaining conflicts that were not merged end. Took 26 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mSort/Parallelize merged entries start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mSort/Parallelize merged entries end. Took 7 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate jar start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate jar end. Took 913 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mHash newly-built Jar start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mHash newly-built Jar end. Took 54 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt: /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/spark-analytics-job-assembly-1.0.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mJar hash: 4a8b43cfb0be7819885635fc37a09c921ef9ea03[0m
+[0m[[0m[0mdebug[0m] [0m[0mClose library jar references start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mClose library jar references end. Took 1 ms[0m

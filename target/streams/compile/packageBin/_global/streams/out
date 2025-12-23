@@ -1,81 +1,81 @@
-[debug] Packaging /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/spark-analytics-job_2.12-1.0.0.jar ...
-[debug] Input file mappings:
-[debug] 	logback.xml
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/logback.xml
-[debug] 	META-INF
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/META-INF
-[debug] 	META-INF/aop.xml
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/META-INF/aop.xml
-[debug] 	application.conf
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/application.conf
-[debug] 	com
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com
-[debug] 	com/company
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company
-[debug] 	com/company/analytics
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics
-[debug] 	com/company/analytics/transformations
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/transformations
-[debug] 	com/company/analytics/transformations/SimpleTransformations.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/transformations/SimpleTransformations.class
-[debug] 	com/company/analytics/transformations/SimpleTransformations$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/transformations/SimpleTransformations$.class
-[debug] 	com/company/analytics/writers
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/writers
-[debug] 	com/company/analytics/writers/SimpleWriter$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/writers/SimpleWriter$.class
-[debug] 	com/company/analytics/writers/SimpleWriter.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/writers/SimpleWriter.class
-[debug] 	com/company/analytics/config
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config
-[debug] 	com/company/analytics/config/AppConfig$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config/AppConfig$.class
-[debug] 	com/company/analytics/config/SparkSessionBuilder$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config/SparkSessionBuilder$.class
-[debug] 	com/company/analytics/config/SparkSessionBuilder.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config/SparkSessionBuilder.class
-[debug] 	com/company/analytics/config/AppConfig.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config/AppConfig.class
-[debug] 	com/company/analytics/SparkJobApp.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/SparkJobApp.class
-[debug] 	com/company/analytics/utils
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/utils
-[debug] 	com/company/analytics/utils/SampleDataGenerator.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/utils/SampleDataGenerator.class
-[debug] 	com/company/analytics/utils/SampleDataGenerator$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/utils/SampleDataGenerator$.class
-[debug] 	com/company/analytics/models
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models
-[debug] 	com/company/analytics/models/Address.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/Address.class
-[debug] 	com/company/analytics/models/Address$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/Address$.class
-[debug] 	com/company/analytics/models/SalesRecord.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/SalesRecord.class
-[debug] 	com/company/analytics/models/SalesRecord$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/SalesRecord$.class
-[debug] 	com/company/analytics/models/CustomerProfile.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/CustomerProfile.class
-[debug] 	com/company/analytics/models/CustomerProfile$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/CustomerProfile$.class
-[debug] 	com/company/analytics/instrumentation
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/instrumentation
-[debug] 	com/company/analytics/instrumentation/MethodLoggingAspect.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/instrumentation/MethodLoggingAspect.class
-[debug] 	com/company/analytics/instrumentation/LogMethod.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/instrumentation/LogMethod.class
-[debug] 	com/company/analytics/readers
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/readers
-[debug] 	com/company/analytics/readers/SimpleReader.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/readers/SimpleReader.class
-[debug] 	com/company/analytics/readers/SimpleReader$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/readers/SimpleReader$.class
-[debug] 	com/company/analytics/jobs
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/jobs
-[debug] 	com/company/analytics/jobs/SimpleSalesJob.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/jobs/SimpleSalesJob.class
-[debug] 	com/company/analytics/jobs/SimpleSalesJob$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/jobs/SimpleSalesJob$.class
-[debug] 	com/company/analytics/SparkJobApp$.class
-[debug] 	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/SparkJobApp$.class
-[debug] Done packaging.
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/spark-analytics-job_2.12-1.0.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/aop.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/META-INF/aop.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/transformations[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/transformations[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/transformations/SimpleTransformations.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/transformations/SimpleTransformations.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/transformations/SimpleTransformations$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/transformations/SimpleTransformations$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/writers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/writers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/writers/SimpleWriter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/writers/SimpleWriter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/writers/SimpleWriter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/writers/SimpleWriter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/config[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/config/AppConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config/AppConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/config/SparkSessionBuilder$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config/SparkSessionBuilder$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/config/SparkSessionBuilder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config/SparkSessionBuilder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/config/AppConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/config/AppConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/SparkJobApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/SparkJobApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/utils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/utils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/utils/SampleDataGenerator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/utils/SampleDataGenerator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/utils/SampleDataGenerator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/utils/SampleDataGenerator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/models/Address.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/Address.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/models/Address$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/Address$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/models/SalesRecord.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/SalesRecord.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/models/SalesRecord$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/SalesRecord$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/models/CustomerProfile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/CustomerProfile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/models/CustomerProfile$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/models/CustomerProfile$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/instrumentation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/instrumentation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/instrumentation/MethodLoggingAspect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/instrumentation/MethodLoggingAspect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/instrumentation/LogMethod.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/instrumentation/LogMethod.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/readers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/readers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/readers/SimpleReader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/readers/SimpleReader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/readers/SimpleReader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/readers/SimpleReader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/jobs[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/jobs[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/jobs/SimpleSalesJob.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/jobs/SimpleSalesJob.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/jobs/SimpleSalesJob$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/jobs/SimpleSalesJob$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/company/analytics/SparkJobApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/com/company/analytics/SparkJobApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

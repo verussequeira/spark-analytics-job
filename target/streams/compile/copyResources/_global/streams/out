@@ -1,4 +1,4 @@
-[debug] Copy resource mappings: 
-[debug] 	(/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/resources/logback.xml,/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/logback.xml)
-[debug] 	(/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/resources/application.conf,/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/application.conf)
-[debug] 	(/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/resources/META-INF/aop.xml,/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/META-INF/aop.xml)
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/resources/logback.xml,/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/resources/application.conf,/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/resources/META-INF/aop.xml,/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/target/scala-2.12/classes/META-INF/aop.xml)[0m

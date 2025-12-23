@@ -2,7 +2,7 @@
 <aspectj>
     <weaver>
         <!-- Weave classes in our package -->
-        <include within="com.company.analytics..*"/>
+        <include within="com..*"/>
         <!-- Exclude Spark's internal classloaders to reduce noise -->
         <exclude within="org.codehaus.commons.compiler..*"/>
         <exclude within="sun.reflect..*"/>

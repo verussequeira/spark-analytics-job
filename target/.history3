@@ -75,3 +75,6 @@
 1766440919221:runMain com.company.analytics.SparkJobApp sales -Dspark.logging.instrumentation.log-method-name=false
 1766440950271:runMain com.company.analytics.SparkJobApp sales -Dspark.logging.instrumentation.log-method-name=true
 1766440979662:exit
+1766505407739:compile
+1766508894156:runMain com.company.analytics.SparkJobApp sales
+1766511784182:compile

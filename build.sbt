@@ -10,13 +10,16 @@ libraryDependencies ++= Seq(
    "org.apache.spark" %% "spark-sql" % "3.5.0" % "provided",
 
   // AspectJ dependencies - included in JAR (required for runtime)
+  // These will be transitive dependencies when using publishLocal
   "org.aspectj" % "aspectjrt" % "1.9.19",
   "org.aspectj" % "aspectjweaver" % "1.9.19",
 
   // Configuration - included in JAR
+  // These will be transitive dependencies when using publishLocal
   "com.typesafe" % "config" % "1.4.2",
   
   // Logging - included in JAR
+  // These will be transitive dependencies when using publishLocal
   "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
   "ch.qos.logback" % "logback-classic" % "1.4.11",
   
@@ -55,6 +58,8 @@ javaOptions ++= Seq(
 )
 
 // Publishing settings for library usage
+// publishMavenStyle ensures transitive dependencies are included in POM
+// When consumers use publishLocal, they get AspectJ, Config, and Logging dependencies automatically
 publishMavenStyle := true
 publishTo := Some(Resolver.file("local", file(Path.userHome.absolutePath + "/.m2/repository")))
 

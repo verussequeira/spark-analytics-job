@@ -241,3 +241,133 @@ WARNING: Unmatched cancel notification for request id 2227
 2025.12.22 16:56:11 INFO  time: compiled spark-analytics-job in 0.65s
 2025.12.22 16:56:20 INFO  compiling spark-analytics-job (1 scala source)
 2025.12.22 16:56:20 INFO  time: compiled spark-analytics-job in 0.6s
+2025.12.22 22:26:45 INFO  Shutting down server
+2025.12.22 22:26:45 INFO  shutting down Metals
+2025.12.22 22:26:45 INFO  Shut down connection with build server.
+2025.12.22 22:26:45 INFO  Shut down connection with build server.
+2025.12.22 22:26:45 INFO  Shut down connection with build server.
+2025.12.22 22:26:45 INFO  Exiting server
+2025.12.22 22:26:46 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.12.22 22:26:51 INFO  Started: Metals version 1.6.4 in folders '/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job' for client Cursor 1.99.3.
+2025.12.22 22:26:52 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.22 22:26:52 INFO  Attempting to connect to the build server...
+2025.12.22 22:26:52 INFO  Found a Bloop server running
+2025.12.22 22:26:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.22 22:26:52 INFO  Attempting to connect to the build server...
+2025.12.22 22:26:52 INFO  Found a Bloop server running
+2025.12.22 22:26:52 INFO  Attempting to connect to the build server...
+2025.12.22 22:26:52 INFO  Found a Bloop server running
+2025.12.22 22:26:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.22 22:26:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.22 22:26:52 INFO  time: Connected to build server in 0.32s
+2025.12.22 22:26:52 INFO  Connected to Build server: Bloop v2.0.17
+2025.12.22 22:26:56 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.22 22:26:58 INFO  time: indexed workspace in 6.21s
+2025.12.22 22:27:15 INFO  Shutting down server
+2025.12.22 22:27:15 INFO  shutting down Metals
+2025.12.22 22:27:15 INFO  Shut down connection with build server.
+2025.12.22 22:27:15 INFO  Shut down connection with build server.
+2025.12.22 22:27:15 INFO  Shut down connection with build server.
+2025.12.22 22:27:15 INFO  Exiting server
+2025.12.23 07:53:06 INFO  Started: Metals version 1.6.4 in folders '/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job' for client Cursor 1.99.3.
+2025.12.23 07:53:06 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 07:53:06 INFO  Attempting to connect to the build server...
+2025.12.23 07:53:06 INFO  Found a Bloop server running
+2025.12.23 07:53:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 07:53:06 INFO  Attempting to connect to the build server...
+2025.12.23 07:53:06 INFO  Found a Bloop server running
+2025.12.23 07:53:06 INFO  Attempting to connect to the build server...
+2025.12.23 07:53:06 INFO  Found a Bloop server running
+2025.12.23 07:53:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 07:53:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 07:53:07 INFO  time: Connected to build server in 0.31s
+2025.12.23 07:53:07 INFO  Connected to Build server: Bloop v2.0.17
+2025.12.23 07:53:07 INFO  time: Imported build in 0.13s
+2025.12.23 07:53:10 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 07:53:12 INFO  time: indexed workspace in 5.37s
+2025.12.23 08:26:22 INFO  time: code lens generation in 2.33s
+2025.12.23 12:34:08 INFO  Shutting down server
+2025.12.23 12:34:08 INFO  shutting down Metals
+2025.12.23 12:34:08 INFO  Shut down connection with build server.
+2025.12.23 12:34:08 INFO  Shut down connection with build server.
+2025.12.23 12:34:08 INFO  Shut down connection with build server.
+2025.12.23 12:34:08 INFO  Exiting server
+2025.12.23 12:34:27 INFO  Started: Metals version 1.6.4 in folders '/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job' for client Cursor 1.99.3.
+2025.12.23 12:34:28 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 12:34:28 INFO  Attempting to connect to the build server...
+2025.12.23 12:34:28 INFO  Found a Bloop server running
+2025.12.23 12:34:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 12:34:28 INFO  Attempting to connect to the build server...
+2025.12.23 12:34:28 INFO  Found a Bloop server running
+2025.12.23 12:34:28 INFO  Attempting to connect to the build server...
+2025.12.23 12:34:28 INFO  Found a Bloop server running
+2025.12.23 12:34:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 12:34:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 12:34:28 INFO  time: Connected to build server in 0.37s
+2025.12.23 12:34:28 INFO  Connected to Build server: Bloop v2.0.17
+2025.12.23 12:34:28 INFO  time: Imported build in 0.11s
+2025.12.23 12:34:31 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 12:34:39 INFO  time: indexed workspace in 10s
+2025.12.23 12:56:48 INFO  Shutting down server
+2025.12.23 12:56:48 INFO  shutting down Metals
+2025.12.23 12:56:48 INFO  Shut down connection with build server.
+2025.12.23 12:56:48 INFO  Shut down connection with build server.
+2025.12.23 12:56:48 INFO  Shut down connection with build server.
+2025.12.23 12:56:48 INFO  Exiting server
+2025.12.23 12:57:11 INFO  Started: Metals version 1.6.4 in folders '/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job' for client Cursor 1.105.1.
+2025.12.23 12:57:11 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 12:57:12 INFO  no build target found for /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/scala/com/company/analytics/instrumentation/MethodLoggingAspect.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.23 12:57:12 INFO  Attempting to connect to the build server...
+2025.12.23 12:57:12 INFO  Found a Bloop server running
+2025.12.23 12:57:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 12:57:13 INFO  Attempting to connect to the build server...
+2025.12.23 12:57:13 INFO  Found a Bloop server running
+2025.12.23 12:57:13 INFO  Attempting to connect to the build server...
+2025.12.23 12:57:13 INFO  Found a Bloop server running
+2025.12.23 12:57:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 12:57:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 12:57:13 INFO  time: Connected to build server in 0.33s
+2025.12.23 12:57:13 INFO  Connected to Build server: Bloop v2.0.17
+2025.12.23 12:57:16 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 12:57:17 INFO  time: indexed workspace in 4.64s
+2025.12.23 12:59:15 INFO  Shutting down server
+2025.12.23 12:59:15 INFO  shutting down Metals
+2025.12.23 12:59:15 INFO  Shut down connection with build server.
+2025.12.23 12:59:15 INFO  Shut down connection with build server.
+2025.12.23 12:59:15 INFO  Shut down connection with build server.
+2025.12.23 12:59:15 INFO  Exiting server
+2025.12.23 13:05:30 INFO  Started: Metals version 1.6.4 in folders '/Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job' for client Cursor 1.105.1.
+2025.12.23 13:05:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 13:05:31 INFO  no build target found for /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/src/main/scala/com/company/analytics/instrumentation/MethodLoggingAspect.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.23 13:05:31 INFO  Attempting to connect to the build server...
+2025.12.23 13:05:31 INFO  Found a Bloop server running
+2025.12.23 13:05:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 13:05:31 INFO  Attempting to connect to the build server...
+2025.12.23 13:05:31 INFO  Found a Bloop server running
+2025.12.23 13:05:31 INFO  Attempting to connect to the build server...
+2025.12.23 13:05:31 INFO  Found a Bloop server running
+2025.12.23 13:05:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 13:05:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/verussequeira/Documents/userdata/Workspace/spark-analytics-job/project/project/.metals/bsp.trace.json or /Users/verussequeira/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.23 13:05:31 INFO  time: Connected to build server in 0.35s
+2025.12.23 13:05:31 INFO  Connected to Build server: Bloop v2.0.17
+2025.12.23 13:05:34 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 13:05:36 INFO  time: indexed workspace in 4.4s
+2025.12.23 13:08:50 INFO  time: code lens generation in 1.58s
+2025.12.23 15:15:36 INFO  skipping build import with status 'Installed'
+2025.12.23 15:15:38 INFO  skipping build import with status 'Installed'
+2025.12.23 15:16:08 INFO  skipping build import with status 'Installed'
+2025.12.23 15:17:04 INFO  skipping build import with status 'Installed'
+Dec 23, 2025 4:00:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
